@@ -4,11 +4,11 @@
 #    mod-morphsummon configuration
 ###################################################################################################
 
-# Announce the module when the player logs in?
+# 当玩家登录时宣布模块?
 
 MorphSummon.Announce = 0
 
-# Model IDs for the summoned permanent creatures
+#召唤的永久生物的模型id
 
 MorphSummon.Warlock.Imp = "Imp Black,4449,Imp Jade,7552,Imp Red,10811,Outland Imp Red,16888,Outland Imp Purple,16889,Outland Imp Yellow,16890,Outland Imp White,16891"
 
@@ -24,16 +24,16 @@ MorphSummon.DeathKnight.Ghoul = "Northrend Ghoul White,24992,Northrend Ghoul Blu
 
 MorphSummon.Mage.WaterElemental = "Water Elemental,525,Water Elemental Green,4907,Water Elemental Red,17045,Water Elemental Purple,27029"
 
-# List with alternative item IDs for the Felguard weapon
+# 列出恶魔守卫武器的可选物品id
 
 MorphSummon.Warlock.Felguard.Weapon = "Axe (Default),22199,Sword 1,1899,Sword 2,10613,Sword 3,10614,Sword 4,12889,Sword 5,12902,Sword 6,13504,Mace 1,2809,Mace 2,5491,Mace 3,12950,Mace 4,30670,Axe 1,5287,Axe 2,14643,Axe 3,14870,Polearm 1,28365"
 
-# List with visual effect spells; the polymorph NPC will randomly choose one to cast after waiting between "minTimeVisualEffect" and "maxTimeVisualEffect" (values in milliseconds)
+# 列表与视觉效果法术;变形NPC将在“minTimeVisualEffect”和“maxTimeVisualEffect”(值以毫秒为单位)之间等待后随机选择一个进行施放。
 
 MorphSummon.RandomVisualEffectSpells = "45959,50772"
 MorphSummon.MinTimeVisualEffect = 30000
 MorphSummon.MaxTimeVisualEffect = 90000
 
-# List containing main hand equipment; the polymorph NPC will randomly pick one when (re)spawned
+# 载有主要手提设备的清单;当生成时，变形NPC将随机选择一个
 
 MorphSummon.RandomMainHandEquip = "28658,32374"

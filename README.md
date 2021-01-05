@@ -12,9 +12,9 @@
 You have to use at least AzerothCore commit [3f0739f](https://github.com/azerothcore/azerothcore-wotlk/commit/3f0739f1c9a5289444ff9d62834b7ceb38879ba9).
 
 
-## Description
+## 描述
 
-This module allows Warlocks, Death Knights and Mages to alter the appearance of their summoned permanent creatures (incl. the Felguard's weapon). The appropriate model / item IDs can be specified in the configuration file.
+该模块允许术士，死亡骑士和法师改变被召唤的永久生物（包括恶魔卫士的武器）的外观。可以在配置文件中指定适当的型号/项目ID。
 
 
 ## How to use ingame

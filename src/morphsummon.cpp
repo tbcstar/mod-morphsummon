@@ -84,7 +84,7 @@ public:
     {
         if (morphSummonAnnounce)
         {
-            ChatHandler(player->GetSession()).SendSysMessage("This server is running the |cff4CFF00MorphSummon |rmodule.");
+            ChatHandler(player->GetSession()).SendSysMessage("服务器已启用 |cff4CFF00召唤物变形 |r模块。");
         }
     }
 
